@@ -31,7 +31,7 @@ const preview = {
     },
     backgrounds: {
       options: {
-        theme: { name: 'theme', value: 'var(--color-background-secondary)' }
+        theme: { name: 'theme', value: 'var(--color-background-primary)' }
       }
     },
   },
