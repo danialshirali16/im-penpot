@@ -28,7 +28,7 @@ $arrow-side: 12px;
 }
 
 .tooltip-arrow {
-  background-color: var(--color-background-primary);
+  background-color: var(--color-background-tertiary);
   border-radius: var(--sp-xs);
   inline-size: $arrow-side;
   block-size: $arrow-side;
@@ -152,11 +152,11 @@ $arrow-side: 12px;
 .tooltip-content {
   @include t.use-typography("body-small");
 
-  background-color: var(--color-background-primary);
-  color: var(--color-foreground-secondary);
+  background-color: var(--color-background-tertiary);
+  color: var(--color-foreground-primary);
   border-radius: var(--sp-xs);
   border: $b-1 solid var(--color-accent-primary-muted);
-  padding: var(--sp-s) var(--sp-m);
+  padding: var(--sp-xs) var(--sp-s);
   grid-area: content;
   block-size: fit-content;
 }
