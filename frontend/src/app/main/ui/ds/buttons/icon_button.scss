@@ -6,14 +6,17 @@
 
 @use "ds/typography.scss" as *;
 @use "ds/_sizes.scss" as *;
+@use "ds/_borders.scss" as *;
 @use "./buttons" as *;
 
 .icon-button {
   @extend %base-button;
 
-  --button-width: #{$sz-32};
-  --button-height: #{$sz-32};
+  --button-width: #{$sz-28};
+  --button-height: #{$sz-28};
 
+  border-radius: $br-6;
+  padding-inline: $sz-6;
   display: grid;
   place-content: center;
   position: relative;
