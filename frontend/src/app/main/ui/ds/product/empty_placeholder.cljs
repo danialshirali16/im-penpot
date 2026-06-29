@@ -34,6 +34,6 @@
      [:div {:class (stl/css :text-wrapper)}
       [:> text* {:as "span" :typography t/title-medium :class (stl/css :placeholder-title)} title]
       (when subtitle
-        [:> text* {:as "span" :typography t/body-large} subtitle])
+        [:> text* {:as "span" :typography t/body-medium} subtitle])
       children]
      [:> raw-svg* {:id (dm/str decoration-type "-right") :class (stl/css :svg-decor)}]]))
