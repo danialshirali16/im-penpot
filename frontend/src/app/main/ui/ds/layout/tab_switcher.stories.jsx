@@ -97,9 +97,9 @@ const ActionButton = (
     }}
     style={{
       backgroundColor: "var(--tabs-bg-color)",
-      height: "32px",
+      height: "24px",
       border: "none",
-      borderRadius: "8px",
+      borderRadius: "6px",
       color: "var(--color-foreground-secondary)",
       display: "grid",
       placeItems: "center",
