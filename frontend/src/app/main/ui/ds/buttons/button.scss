@@ -5,13 +5,18 @@
 // Copyright (c) KALEIDOS INC Sucursal en España SL
 
 @use "ds/typography.scss" as *;
+@use "ds/_sizes.scss" as *;
+@use "ds/_borders.scss" as *;
 @use "./buttons" as *;
 
 .button {
   @extend %base-button;
   @include use-typography("headline-small");
 
-  padding: 0 var(--sp-m);
+  --button-height: #{$sz-28};
+
+  border-radius: $br-6;
+  padding: 0 var(--sp-s);
   display: inline-flex;
   align-items: center;
   column-gap: var(--sp-xs);
